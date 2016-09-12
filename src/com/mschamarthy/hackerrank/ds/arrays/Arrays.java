@@ -36,6 +36,7 @@ public class Arrays {
 			for (int i = 0; i < n ; i++){
 				arr[i] = stdIn.nextInt();
 			}
+			stdIn.close();
 			return arr;
 		}
 		
